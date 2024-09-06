@@ -94,11 +94,11 @@ class _TodaAppState extends State<TodaApp> {
           return ListTile(
             title: Text(
                  'Title: ${_myList[index]['title'] ?? ""}',
-                style: const TextStyle(fontSize: 20), // ขนาดตัวอักษรของ title
+                style: const TextStyle(fontSize: 20),
                 ),
                 subtitle: Text(
                  'Detail: ${_myList[index]['detail'] ?? ""}',
-                 style: const TextStyle(fontSize: 18), // ขนาดตัวอักษรของ subtitle
+                 style: const TextStyle(fontSize: 18), 
             ),
           );
         },
